@@ -1,9 +1,13 @@
-import React from 'react'
-import NavBar from './NavBar.js';
+import { Container } from 'react-bootstrap';
+import JobLists from './JobLists.jsx'
+import NavBar from './MainNavBar.jsx';
 
 function App() {
   return (
-    <NavBar></NavBar>
+    <div>
+      <NavBar />
+      <JobLists />
+    </div>
   );
 }
 
