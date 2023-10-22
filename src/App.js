@@ -1,12 +1,11 @@
-import { Container } from 'react-bootstrap';
-import JobLists from './JobLists.jsx'
+import JobCard from './JobCard.jsx'
 import NavBar from './MainNavBar.jsx';
 
 function App() {
   return (
     <div>
       <NavBar />
-      <JobLists />
+      <JobCard />
     </div>
   );
 }
