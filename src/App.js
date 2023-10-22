@@ -1,5 +1,5 @@
 import JobCard from './JobCard.jsx'
-import NavBar from './MainNavBar.jsx';
+import NavBar from './NavigationBar.jsx';
 
 function App() {
   return (
