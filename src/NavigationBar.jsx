@@ -1,11 +1,11 @@
 import React from 'react'
 import { Navbar, Container, Button, Form, InputGroup, Row, Col } from 'react-bootstrap';
 import logo from './images/logo.png';
-// import './App.css';
+import './NavigationBar.css'
 
 function NavBar() {
     return (
-        <Navbar className="bg-body-tertiary justify-content-between">
+        <Navbar className="justify-content-between bg-transparent">
             <Container>
                 <Navbar.Brand href="#home">
                     <img

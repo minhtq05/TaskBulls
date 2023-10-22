@@ -1,0 +1,66 @@
+
+.centered-form {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 100vh; /* Optional: makes the form fill the viewport height */
+  }
+  
+  /* Center the container both horizontally and vertically */
+  .Signup-container {
+      background-color: #f7f7f7;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 400px;
+    }
+    
+    /* Style the heading */
+    .Signup-container h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    
+    /* Style form controls */
+    .Signup-container .form-group {
+      margin-bottom: 15px;
+    }
+    
+    /* Style the Signup button */
+    .Signup-container .btn-primary {
+      background-color: #007bff;
+      border: none;
+      width: 100%;
+    }
+    
+    .Signup-container .btn-primary:hover {
+      background-color: #0056b3;
+    }
+  
+  .submit-button {
+    background-color: #007bff; /* Background color of the button */
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    color: #fff; /* Text color */
+    font-size: 16px;
+    cursor: pointer;
+    /* Set a radius to create a semi-circle curve */
+    border-radius: 50px; /* Adjust the value to control the curvature */
+  
+    /* Hide the overflow to create semi-circle curves */
+    overflow: hidden;
+  }
+  
+  .button-with-curved-corners:hover {
+    background-color: #0056b3; /* Background color on hover */
+  }
+
+  .switch-container {
+    align-items: right;
+  }
+  .show-password-switch{
+    margin-bottom: 15px;
+  }
