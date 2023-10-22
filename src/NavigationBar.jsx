@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navbar, Container, Button, Form, InputGroup, Row, Col } from 'react-bootstrap';
-// import './App.css';
 import logo from './images/logo.png';
+// import './App.css';
 
 function NavBar() {
     return (
@@ -17,7 +17,7 @@ function NavBar() {
                     />{' '}
                     TaskBulls
                 </Navbar.Brand>
-                <Form inline>
+                <Form inline className="float-right">
                     <Row>
                         <Col xs="auto">
                             <InputGroup>

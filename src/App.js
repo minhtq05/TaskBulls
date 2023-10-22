@@ -1,12 +1,13 @@
-import JobCard from './JobCard.jsx'
-import NavBar from './NavigationBar.jsx';
+import Home from './Home'
+import { Container } from 'react-bootstrap';
+import NavBar from './NavigationBar';
 
 function App() {
   return (
     <div>
       <NavBar />
-      <JobCard />
-    </div>
+      <Home />
+    </div >
   );
 }
 
