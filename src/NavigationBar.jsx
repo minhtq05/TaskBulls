@@ -2,6 +2,7 @@ import React from 'react'
 import { Navbar, Container, Button, Form, InputGroup, Row, Col } from 'react-bootstrap';
 import logo from './images/logo.png';
 import './NavigationBar.css'
+import cutelogo from './images/cutelogo.png';
 
 function NavBar() {
     return (
@@ -31,7 +32,10 @@ function NavBar() {
                             </InputGroup>
                         </Col>
                         <Col xs="auto">
-                            <Button type="submit">Login</Button>
+                            <Button type="submit" style={{ backgroundColor: '#EB6440', border: 'none' }}>Login</Button>
+                        </Col>
+                        <Col xs="auto">
+                            <Button type="submit" style={{ backgroundColor: '#EB6440', border: 'none' }}>Signup</Button>
                         </Col>
                     </Row>
                 </Form>

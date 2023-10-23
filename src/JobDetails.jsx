@@ -52,7 +52,7 @@ function JobCards() {
         }}>
             <Row className=" justify-content-center g-4">
                 {joblist.map((job) =>
-                    <Card style={{ backgroundColor: '#EFF5F5', width: '18rem', height: '100%', margin: '10px', padding: '0px', color: '#EB6440' }}>
+                    <Card style={{ backgroundColor: '#EFF5F5', width: '18rem', height: '100%', margin: '10px', padding: '0px', color: 'black' }}>
                         <Card.Img variant="top" src={jobImage} />
                         <Card.Body>
                             <Card.Title>{job.title}</Card.Title>
@@ -61,7 +61,7 @@ function JobCards() {
                             </Card.Text>
                             <Row className="justify-content-between">
                                 <Col>
-                                    <Button style={{ backgroundColor: '#EB6440' }} variant="primary">Apply</Button>
+                                    <Button style={{ backgroundColor: '#EB6440', border: 'none' }} variant="primary">Apply</Button>
                                 </Col>
                                 <Col>
                                     <Card.Text className="float-right" style={{ margin: '5px' }}>{job.rate}</Card.Text>
